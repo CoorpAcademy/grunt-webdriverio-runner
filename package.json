@@ -1,0 +1,38 @@
+{
+  "name": "grunt-webdriverio-runner",
+  "version": "0.0.1",
+  "description": "A grunt webdriver.io runner",
+  "main": "tasks/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoorpAcademy/grunt-webdriverio-runner.git"
+  },
+  "keywords": [
+    "webdriver.io",
+    "browserstack",
+    "saucelabs",
+    "selenium",
+    "webdriver",
+    "grunt",
+    "mocha"
+  ],
+  "author": "Loïc Calvy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoorpAcademy/grunt-webdriverio-runner/issues"
+  },
+  "homepage": "https://github.com/CoorpAcademy/grunt-webdriverio-runner",
+  "dependencies": {
+    "async": "^0.9.0",
+    "bluebird": "^2.9.12",
+    "chai": "^2.1.0",
+    "debug": "^2.1.1",
+    "lodash": "^3.3.1",
+    "mocha": "^2.1.0",
+    "saucelabs": "^0.1.1",
+    "webdriverio": "^2.4.5"
+  }
+}
